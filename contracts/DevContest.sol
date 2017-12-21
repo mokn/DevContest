@@ -176,16 +176,24 @@ contract DevContest {
 
     // If no one has voted, automatically set _favoriteSubmission as winning address and return true
     if (highestVote == 0 && winningAddress == 0x0) {
-      winningAddress = _favoriteSubmission;
-      highestVote += stakedAmount[msg.sender];
-      // Set voterCount to be able to use it later to subtract it from votes if vote removed
-      voterCount[msg.sender] += stakedAmount[msg.sender];
-      approvedSub.votes += stakedAmount[msg.sender];
-      hasVoted[msg.sender] = true;
-      Voted(_favoriteSubmission, msg.sender, stakedAmount[msg.sender]);
-      return true;
+        winningAddress = _favoriteSubmission;
+        highestVote += stakedAmount[msg.sender];
+        // Set voterCount to be able to use it later to subtract it from votes if vote removed
+        voterCount[msg.sender] += stakedAmount[msg.sender];
+        approvedSub.votes += stakedAmount[msg.sender];
+        hasVoted[msg.sender] = true;
+        Voted(_favoriteSubmission, msg.sender, stakedAmount[msg.sender]);
+        return true;
     } else if (secondHighestVote == 0 && secondPlaceAddress == 0x0) {
-      // Set second highest vote
+        // Set second highest vote
+        secondPlaceAddress = _favoriteSubmission;
+        secondHighestVote += stakedAmount[msg.sender];
+        // Set voterCount to be able to use it later to subtract it from votes if vote removed
+        voterCount[msg.sender] += stakedAmount[msg.sender];
+        approvedSub.votes += stakedAmount[msg.sender];
+        hasVoted[msg.sender] = true;
+        Voted(_favoriteSubmission, msg.sender, stakedAmount[msg.sender]);
+        return true;
     }
 
       // Set new values for submission
