@@ -36,8 +36,12 @@ contract DevContest {
   address public owner;
 
   // Mappings of voter information
+
+  // Count of staked amount
   mapping (address => uint256) public stakedAmount;
+  // Count of votes user has
   mapping (address => uint256) public voterCount;
+  // Has user voted
   mapping (address => bool) public hasVoted;
 
   // Contract owner must manually screen and approve submissions
@@ -54,6 +58,10 @@ contract DevContest {
   // Globals for deciding winner
   uint256 public highestVote;
   address public winningAddress;
+
+  // Globals for keeping track of second place
+  uint256 public secondHighestVote;
+  address public secondPlaceAddress;
 
   // Blocktimes for contest start
   uint256 public startBlock;
@@ -82,7 +90,7 @@ contract DevContest {
   /// @return Success of stake
   function stake(uint256 _amount) returns (bool success) {
 
-    //checkContestStatus();
+    checkContestStatus();
     // get contract's allowance
     uint256 allowance = token.allowance(msg.sender, this);
     // do not continue if allowance is less than amount sent
@@ -117,7 +125,7 @@ contract DevContest {
   /// @return Success of submission register
   function registerSubmission (bytes32 _name, bytes32 _desc, bytes32 _url) returns (bool success){
 
-    //checkContestStatus();
+    checkContestStatus();
 
     Submission memory newSub;
     newSub.isApproved = false;
@@ -166,11 +174,40 @@ contract DevContest {
 
     Submission approvedSub = submissions[_favoriteSubmission];
 
-    voterCount[msg.sender] = stakedAmount[msg.sender];
-    approvedSub.votes += stakedAmount[msg.sender];
-    hasVoted[msg.sender] = true;
-    Voted(_favoriteSubmission, msg.sender, stakedAmount[msg.sender]);
-    return true;
+    // If no one has voted, automatically set _favoriteSubmission as winning address and return true
+    if (highestVote == 0 && winningAddress == 0x0) {
+      winningAddress = _favoriteSubmission;
+      highestVote += stakedAmount[msg.sender];
+      // Set voterCount to be able to use it later to subtract it from votes if vote removed
+      voterCount[msg.sender] += stakedAmount[msg.sender];
+      approvedSub.votes += stakedAmount[msg.sender];
+      hasVoted[msg.sender] = true;
+      Voted(_favoriteSubmission, msg.sender, stakedAmount[msg.sender]);
+      return true;
+    } else if (secondHighestVote == 0 && secondPlaceAddress == 0x0) {
+
+    }
+
+      // Set new values for submission
+      voterCount[msg.sender] = stakedAmount[msg.sender];
+      approvedSub.votes += stakedAmount[msg.sender];
+      hasVoted[msg.sender] = true; 
+
+      // Check whether submission has surpassed current winning address and votes
+      // If greater, set _favoriteSubmission as new winning submission and adjust highestVote
+      // This breaks a tie, as the first to reach the winning number of votes must be surpassed
+      if (approvedSub.votes > highestVote) {
+          winningAddress = _favoriteSubmission;
+          highestVote = approvedSub.votes;
+          Voted(_favoriteSubmission, msg.sender, stakedAmount[msg.sender]);
+          return true;
+      } else {
+        // Fire off Voted event and return true
+        Voted(_favoriteSubmission, msg.sender, stakedAmount[msg.sender]);
+        return true;
+      }
+
+
   }
 
   /// @dev remove vote from submission
@@ -181,8 +218,9 @@ contract DevContest {
     require(hasVoted[msg.sender] == true);
 
     Submission approvedSub = submissions[_unfortunateSubmission];
-
+    // We keep track of voterCount in case user stakes between votes. This allows us to keep track of actual votes
     approvedSub.votes -= voterCount[msg.sender];
+    // When user votes, voterCount is always 0 and gets set to current stakedAmount to protect against voting with more stake
     voterCount[msg.sender] = 0;
     hasVoted[msg.sender] = false;
     RemovedVote(_unfortunateSubmission, msg.sender, stakedAmount[msg.sender]);
