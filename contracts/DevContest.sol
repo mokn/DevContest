@@ -185,13 +185,13 @@ contract DevContest {
       Voted(_favoriteSubmission, msg.sender, stakedAmount[msg.sender]);
       return true;
     } else if (secondHighestVote == 0 && secondPlaceAddress == 0x0) {
-
+      // Set second highest vote
     }
 
       // Set new values for submission
       voterCount[msg.sender] = stakedAmount[msg.sender];
       approvedSub.votes += stakedAmount[msg.sender];
-      hasVoted[msg.sender] = true; 
+      hasVoted[msg.sender] = true;
 
       // Check whether submission has surpassed current winning address and votes
       // If greater, set _favoriteSubmission as new winning submission and adjust highestVote
