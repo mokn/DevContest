@@ -499,7 +499,84 @@ contract('DevContest', function(accounts) {
                     }
                 });
             });
+
+
+            describe("User voting multiple times", function () {
+                for(var i =0; i< 2; i++) {
+                    it("Voting for time number " +i, function () {
+                        return devContest.vote(accounts[0], {from: accounts[0]})
+                            .then(fail, success);
+
+                        function success() {
+                            return true;
+                        }
+                        function fail(err) {
+                            console.log(err);
+                            return assert.fail('User could vote multiple times', // What happened
+                                'User could not vote', // What was expected
+                                'User could vote on count number' + i +'!'); // Error message
+                        }
+                    });
+                }
+            });
+
+
+            describe("Vote increased check", function () {
+                    it("Check if vote increased by 4", function () {
+                        return devContest.submissions.call(accounts[0])
+                            .then(success, fail);
+
+                        function success(obj) {
+                            var votesCount = obj[6];
+                            if(votesCount.toString() == '4') {
+                                return true;
+                            } else {
+                                fail();
+                            }
+                            return true;
+                        }
+                        function fail(err) {
+                            return assert.fail('User could vote multiple times', // What happened
+                                'User could not vote', // What was expected
+                                'User could vote on count number' + i +'!'); // Error message
+                        }
+                    });
+            });
+
         });
+
+        describe("Remove Vote", function () {
+            it("Remove non-existing vote", function () {
+                return devContest.removeVote(accounts[0], {from: accounts[2]})
+                    .then(fail, success);
+
+                function success() {
+                    return true;
+                }
+                function fail(err) {
+                    console.log(err);
+                    return assert.fail('User could remove vote that doesnt exist', // What happened
+                        'User couldnt remove non-existent vote', // What was expected
+                        'User could remove a vote that did not exist previously'); // Error message
+                }
+            });
+
+
+            it("Remove existing vote", function () {
+                return devContest.removeVote(accounts[0], {from: accounts[0]})
+                    .then(success, fail);
+
+                function success() {
+                    return true;
+                }
+                function fail(err) {
+                    console.log(err);
+                    return assert.fail('User couldnt remove previous vote', // What happened
+                        'User could remove his previous vote', // What was expected
+                        'User couldnt remove his previous vote!'); // Error message
+                }
+            });
+        })
     });
 
 
