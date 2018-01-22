@@ -545,7 +545,7 @@ contract('DevContest', function(accounts) {
 
         });
 
-        describe("Remove Vote", function () {
+        describe("REMOVE VOTE", function () {
             it("Remove non-existing vote", function () {
                 return devContest.removeVote(accounts[0], {from: accounts[2]})
                     .then(fail, success);
@@ -574,6 +574,53 @@ contract('DevContest', function(accounts) {
                     return assert.fail('User couldnt remove previous vote', // What happened
                         'User could remove his previous vote', // What was expected
                         'User couldnt remove his previous vote!'); // Error message
+                }
+            });
+        });
+
+        describe("ADD BOUNTY", function () {
+            it("Add bounty without being owner of the contract", function () {
+                return devContest.addBounty(2, {from: accounts[2]})
+                    .then(fail, success);
+
+                function success() {
+                    return true;
+                }
+                function fail(err) {
+                    console.log(err);
+                    return assert.fail('User could add bounty', // What happened
+                        'User should not be able to add bounty without being owner of the contract', // What was expected
+                        'User should not be able to add bounty without being owner of the contract'); // Error message
+                }
+            });
+
+            it("Add bounty with being owner of the contract", function () {
+                return devContest.addBounty(10, {from: accounts[0]})
+                    .then(success, fail);
+
+                function success() {
+                    return true;
+                }
+                function fail(err) {
+                    console.log(err);
+                    return assert.fail('User couldnt add bounty', // What happened
+                        'User should be able to add bounty, being owner of the contract', // What was expected
+                        'User should be able to add bounty, being owner of the contract'); // Error message
+                }
+            });
+
+            it("Add negative bounty", function () {
+                return devContest.addBounty(-22, {from: accounts[0]})
+                    .then(fail, success);
+
+                function success() {
+                    return true;
+                }
+                function fail(err) {
+                    console.log(err);
+                    return assert.fail('User could add bounty', // What happened
+                        'User should not be able to add negative bounty', // What was expected
+                        'User should not be able to add negative bounty'); // Error message
                 }
             });
         })
