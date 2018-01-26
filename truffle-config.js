@@ -12,7 +12,14 @@ module.exports = {
       host: "localhost",
       port: 8545,
       network_id: "*" // Match any network id
-     }
+    },
+    live: {
+      host: "localhost",
+      port: 8545,
+      network_id: "1",
+      from: "0x2cd02c6bfb7d36be9c98be275c5c30aa8d3848b8",
+      gas:5000000
+    }
   //,
   //   ropsten: {
   //     provider: function() {

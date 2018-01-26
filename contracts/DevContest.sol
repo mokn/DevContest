@@ -23,9 +23,9 @@ contract DevContest {
   struct Submission {
     address submitter;
     bool isApproved;
-    bytes32 name;
-    bytes desc;
-    bytes32 url;
+    string name;
+    string desc;
+    string url;
     uint256 id;
     uint256 votes;
   }
@@ -49,7 +49,7 @@ contract DevContest {
 
   // Mapping of whether address has submitted
   mapping (address => bool) public hasSubmitted;
-  mapping (bytes32 => bool) public urlDirectory;
+  mapping (string => bool) public urlDirectory;
 
   // Contract owner must manually screen and approve submissions
   mapping (address => Submission) public submissions;
@@ -99,7 +99,7 @@ contract DevContest {
     /// @param _desc of project submission
     /// @param _url of project submission
     /// @return Success of submission register
-    function registerSubmission (bytes32 _name, bytes _desc, bytes32 _url) returns (bool success){
+    function registerSubmission (string _name, string _desc, string _url) returns (bool success){
 
       checkContestStatus();
       require(_name[0] != 0);
@@ -130,7 +130,7 @@ contract DevContest {
     /// @param _desc of project submission
     /// @param _url of project submission
     /// @return Success of submission edit
-    function editSubmission(bytes32 _name, bytes _desc, bytes32 _url) returns (bool success) {
+    function editSubmission(string _name, string _desc, string _url) returns (bool success) {
 
       Submission sub = submissions[msg.sender];
       require(sub.submitter == msg.sender);
