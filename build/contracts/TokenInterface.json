@@ -131,6 +131,7 @@
       "type": "function"
     }
   ],
+<<<<<<< HEAD
   "bytecode": "0x6060604052341561000f57600080fd5b6102e58061001e6000396000f300606060405260043610610078576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063095ea7b31461007d57806318160ddd146100d757806323b872dd1461010057806370a0823114610179578063a9059cbb146101c6578063dd62ed3e14610220575b600080fd5b341561008857600080fd5b6100bd600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803590602001909190505061028c565b604051808215151515815260200191505060405180910390f35b34156100e257600080fd5b6100ea610294565b6040518082815260200191505060405180910390f35b341561010b57600080fd5b61015f600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803573ffffffffffffffffffffffffffffffffffffffff16906020019091908035906020019091905050610299565b604051808215151515815260200191505060405180910390f35b341561018457600080fd5b6101b0600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506102a2565b6040518082815260200191505060405180910390f35b34156101d157600080fd5b610206600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919080359060200190919050506102a9565b604051808215151515815260200191505060405180910390f35b341561022b57600080fd5b610276600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506102b1565b6040518082815260200191505060405180910390f35b600092915050565b600090565b60009392505050565b6000919050565b600092915050565b6000929150505600a165627a7a723058207cbd3bd5700dafe2649429c0aa42797ae5eef1347e0c1dba099c69859c6a13d00029",
   "deployedBytecode": "0x606060405260043610610078576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063095ea7b31461007d57806318160ddd146100d757806323b872dd1461010057806370a0823114610179578063a9059cbb146101c6578063dd62ed3e14610220575b600080fd5b341561008857600080fd5b6100bd600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803590602001909190505061028c565b604051808215151515815260200191505060405180910390f35b34156100e257600080fd5b6100ea610294565b6040518082815260200191505060405180910390f35b341561010b57600080fd5b61015f600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803573ffffffffffffffffffffffffffffffffffffffff16906020019091908035906020019091905050610299565b604051808215151515815260200191505060405180910390f35b341561018457600080fd5b6101b0600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506102a2565b6040518082815260200191505060405180910390f35b34156101d157600080fd5b610206600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919080359060200190919050506102a9565b604051808215151515815260200191505060405180910390f35b341561022b57600080fd5b610276600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506102b1565b6040518082815260200191505060405180910390f35b600092915050565b600090565b60009392505050565b6000919050565b600092915050565b6000929150505600a165627a7a723058207cbd3bd5700dafe2649429c0aa42797ae5eef1347e0c1dba099c69859c6a13d00029",
   "sourceMap": "140:526:0:-;;;;;;;;;;;;;;;;;",
@@ -140,6 +141,17 @@
   "ast": {
     "attributes": {
       "absolutePath": "/Users/mokn/Development/Ethereum/DevContest/contracts/DevContest.sol",
+=======
+  "bytecode": "0x6060604052341561000f57600080fd5b6102e58061001e6000396000f300606060405260043610610078576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063095ea7b31461007d57806318160ddd146100d757806323b872dd1461010057806370a0823114610179578063a9059cbb146101c6578063dd62ed3e14610220575b600080fd5b341561008857600080fd5b6100bd600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803590602001909190505061028c565b604051808215151515815260200191505060405180910390f35b34156100e257600080fd5b6100ea610294565b6040518082815260200191505060405180910390f35b341561010b57600080fd5b61015f600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803573ffffffffffffffffffffffffffffffffffffffff16906020019091908035906020019091905050610299565b604051808215151515815260200191505060405180910390f35b341561018457600080fd5b6101b0600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506102a2565b6040518082815260200191505060405180910390f35b34156101d157600080fd5b610206600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919080359060200190919050506102a9565b604051808215151515815260200191505060405180910390f35b341561022b57600080fd5b610276600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506102b1565b6040518082815260200191505060405180910390f35b600092915050565b600090565b60009392505050565b6000919050565b600092915050565b6000929150505600a165627a7a72305820ff15588573aae52aa11a66fb460fdcb4857f8a065c47c50245c775e83eab441b0029",
+  "deployedBytecode": "0x606060405260043610610078576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063095ea7b31461007d57806318160ddd146100d757806323b872dd1461010057806370a0823114610179578063a9059cbb146101c6578063dd62ed3e14610220575b600080fd5b341561008857600080fd5b6100bd600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803590602001909190505061028c565b604051808215151515815260200191505060405180910390f35b34156100e257600080fd5b6100ea610294565b6040518082815260200191505060405180910390f35b341561010b57600080fd5b61015f600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803573ffffffffffffffffffffffffffffffffffffffff16906020019091908035906020019091905050610299565b604051808215151515815260200191505060405180910390f35b341561018457600080fd5b6101b0600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506102a2565b6040518082815260200191505060405180910390f35b34156101d157600080fd5b610206600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919080359060200190919050506102a9565b604051808215151515815260200191505060405180910390f35b341561022b57600080fd5b610276600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506102b1565b6040518082815260200191505060405180910390f35b600092915050565b600090565b60009392505050565b6000919050565b600092915050565b6000929150505600a165627a7a72305820ff15588573aae52aa11a66fb460fdcb4857f8a065c47c50245c775e83eab441b0029",
+  "sourceMap": "140:526:0:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "140:526:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;493:76;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;168:64;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;392:98;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;235:72;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;310:79;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;572:92;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;493:76;553:12;493:76;;;;:::o;168:64::-;209:19;168:64;:::o;392:98::-;474:12;392:98;;;;;:::o;235:72::-;288:15;235:72;;;:::o;310:79::-;373:12;310:79;;;;:::o;572:92::-;643:17;572:92;;;;:::o",
+  "source": "pragma solidity ^0.4.11;\n\nimport \"./SafeMath.sol\";\n\n// TokenInterface allows DevContest contract to call approve function from erc20 tokens\ncontract TokenInterface {\n  function totalSupply() constant returns (uint256 totalSupply) {}\n  function balanceOf(address _owner) constant returns (uint256 balance) {}\n  function transfer(address _recipient, uint256 _value) returns (bool success) {}\n  function transferFrom(address _from, address _recipient, uint256 _value) returns (bool success) {}\n  function approve(address _spender, uint256 _value) returns (bool success) {}\n  function allowance(address _owner, address _spender) constant returns (uint256 remaining) {}\n}\n\ncontract DevContest {\n\n  /// @title DevContest - Allows any existing ERC20 token contract to facilitate a contest with submissions and voting by staking tokens into the contract.\n  /// @author Michael O'Rourke - <michael@pkt.network>\n\n  using SafeMath for uint256;\n\n  // Submissions must first get approved by contract owner to be voted on.\n  struct Submission {\n    address submitter;\n    bool isApproved;\n    bytes32 name;\n    bytes desc;\n    bytes32 url;\n    uint256 id;\n    uint256 votes;\n  }\n\n  /*\n  * State variables\n  */\n\n  // Interface for interacting with an ERC20\n  TokenInterface public token;\n\n  address public owner;\n\n  // Mappings of voter information\n  mapping (address => uint256) public stakedAmount;\n  mapping (address => uint256) public voteCount;\n  mapping (address => bool) public hasVoted;\n\n  // Mapping of where vote is\n  mapping (address => address) public votedOn;\n\n  // Mapping of whether address has submitted\n  mapping (address => bool) public hasSubmitted;\n  mapping (bytes32 => bool) public urlDirectory;\n\n  // Contract owner must manually screen and approve submissions\n  mapping (address => Submission) public submissions;\n  address[] public unapprovedSubmissions;\n  address[] public approvedSubmissions;\n\n  // Prize for winner\n  uint256 public bounty;\n\n  // Global keeping track of submissions\n  uint256 public id;\n\n  // Globals for deciding winner\n  uint256 public highestVote;\n  address public winningAddress;\n\n  // Blocktimes for contest start\n  uint256 public startBlock;\n  uint256 public endBlock;\n\n  /*\n  * Events\n  */\n\n  event Staked(address indexed _from, uint256 _value);\n  event StakeReleased(address indexed _from, uint256 _value);\n  event SubmissionRegistered(address indexed owner);\n  event SubmissionApproved(address indexed owner);\n  event Voted(address indexed favoriteSubmission, address indexed who, uint256 amount);\n  event RemovedVote(address indexed unfortunateSubmission, address indexed who, uint256 amount);\n\n  function DevContest(address _tokenAddress, uint256 _startBlock, uint256 _endBlock) {\n      owner = msg.sender;\n      token = TokenInterface(_tokenAddress);\n      startBlock = _startBlock;\n      endBlock = _endBlock;\n      // Set id to 1 to reject submissions not in approvedSubmissions\n      id = 1;\n  }\n\n    /*\n    * Submission functions\n    */\n\n    /// @dev Registers new submission that contract owner can approve\n    /// @param _name of project submission\n    /// @param _desc of project submission\n    /// @param _url of project submission\n    /// @return Success of submission register\n    function registerSubmission (bytes32 _name, bytes _desc, bytes32 _url) returns (bool success){\n\n      checkContestStatus();\n      require(_name[0] != 0);\n      require(_url[0] != 0);\n      require(_desc[0] != 0);\n      require(hasSubmitted[msg.sender] == false);\n      require(urlDirectory[_url] == false);\n\n      Submission memory newSub;\n      newSub.isApproved = false;\n      newSub.submitter = msg.sender;\n      newSub.name = _name;\n      newSub.desc = _desc;\n      newSub.url = _url;\n      newSub.id = id;\n      id += 1;\n\n      submissions[msg.sender] = newSub;\n      urlDirectory[_url] = true;\n      hasSubmitted[msg.sender] = true;\n      unapprovedSubmissions.push(msg.sender);\n      SubmissionRegistered(msg.sender);\n      return true;\n    }\n\n    /// @dev Edit submission by submitter\n    /// @param _name of project submission\n    /// @param _desc of project submission\n    /// @param _url of project submission\n    /// @return Success of submission edit\n    function editSubmission(bytes32 _name, bytes _desc, bytes32 _url) returns (bool success) {\n\n      Submission sub = submissions[msg.sender];\n      require(sub.submitter == msg.sender);\n      require(_name[0] != 0);\n      require(_url[0] != 0);\n      require(_desc[0] != 0);\n      bool isNewURL;\n      if(sha3(_url) != sha3(sub.url)) {\n        isNewURL = true;\n        require(urlDirectory[_url] == false);\n      }\n\n      if(isNewURL) {\n         urlDirectory[_url] = true;\n         urlDirectory[sub.url] = false;\n      }\n\n      sub.name = _name;\n      sub.desc = _desc;\n      sub.url = _url;\n      return true;\n    }\n\n    /// @dev Contract owner approves submissions to be shown\n    /// @param _subAddress of owner of submission to be approved\n    /// @param _index of owner address in approvedSubmissions\n    /// @return Success of approval\n    function approveSubmission (address _subAddress, uint256 _index) returns (bool success) {\n\n      require(owner == msg.sender);\n      //require(unapprovedSubmissions.length > _index);\n\n      Submission approvedSub = submissions[_subAddress];\n\n      // Cannot add same submission twice\n      require(approvedSub.isApproved == false);\n      require(approvedSub.id == _index);\n      require(approvedSub.id != 0);\n      approvedSub.isApproved = true;\n      approvedSubmissions.push(_subAddress);\n      SubmissionApproved(_subAddress);\n      return true;\n    }\n\n  /*\n  * Staking functions\n  */\n\n  /// @dev Stakes ERC20 compatible token into contract. Must call 'approve' on current token contract first.\n  /// @param _amount Desired amount to stake in contract\n  /// @return Success of stake\n  function stake(uint256 _amount) returns (bool success) {\n\n    checkContestStatus();\n    // get contract's allowance\n    uint256 allowance = token.allowance(msg.sender, this);\n    // do not continue if allowance is less than amount sent\n    require(allowance >= _amount);\n    token.transferFrom(msg.sender, this, _amount);\n    stakedAmount[msg.sender] = stakedAmount[msg.sender].add(_amount);\n    Staked(msg.sender, _amount);\n    return true;\n  }\n\n  /// @dev Releases stake of ERC20 compatible token back to user by calling `transfer`.\n  /// @param _amount Desired amount to transfer from contract\n  /// @return Success of release\n  function releaseStake(uint256 _amount) returns (bool success) {\n    require(hasVoted[msg.sender] == false);\n    require(_amount <= stakedAmount[msg.sender]);\n    stakedAmount[msg.sender] = stakedAmount[msg.sender].sub(_amount);\n    token.transfer(msg.sender, _amount);\n    StakeReleased(msg.sender, _amount);\n    return true;\n  }\n\n  /*\n  * Voting functions\n  */\n\n  /// @dev vote for favorite submissions\n  /// @param _favoriteSubmission of approved submissions participant wishes to vote for\n  /// @return Success of vote\n  function vote(address _favoriteSubmission) returns (bool success) {\n\n    require(stakedAmount[msg.sender] > 0);\n    require(hasVoted[msg.sender] == false);\n\n    Submission approvedSub = submissions[_favoriteSubmission];\n\n    voteCount[msg.sender] = stakedAmount[msg.sender];\n    approvedSub.votes = approvedSub.votes.add(stakedAmount[msg.sender]);\n    hasVoted[msg.sender] = true;\n    votedOn[msg.sender] = _favoriteSubmission;\n    Voted(_favoriteSubmission, msg.sender, stakedAmount[msg.sender]);\n    return true;\n  }\n\n  /// @dev remove vote from submission\n  /// @param _unfortunateSubmission address of approved submission participant wishes to remove vote for\n  /// @return success of vote removal\n  function removeVote(address _unfortunateSubmission) returns (bool success) {\n    require(stakedAmount[msg.sender] > 0);\n    require(hasVoted[msg.sender] == true);\n    require(votedOn[msg.sender] == _unfortunateSubmission);\n\n    Submission approvedSub = submissions[_unfortunateSubmission];\n\n    approvedSub.votes = approvedSub.votes.sub(voteCount[msg.sender]);\n    voteCount[msg.sender] = 0;\n    hasVoted[msg.sender] = false;\n    votedOn[msg.sender] = address(0x0);\n    RemovedVote(_unfortunateSubmission, msg.sender, stakedAmount[msg.sender]);\n    return true;\n  }\n\n  /*\n  * Owner functions\n  */\n\n  /// @dev Add bounty for contest winner. Contract owner must approve amount to be transferred\n  /// @param _amount of bounty to be added\n  function addBounty(uint256 _amount) {\n    require(owner == msg.sender);\n\n    uint256 allowance = token.allowance(msg.sender, this);\n    require(allowance >= _amount);\n\n    bounty = bounty.add(_amount);\n    token.transferFrom(msg.sender, this, _amount);\n  }\n\n  function completeContest() {\n    require(hasContestStarted());\n    require(owner == msg.sender);\n\n\n    uint256 subCount = approvedSubmissions.length;\n\n    for (uint8 i= 0; i<subCount; i+=1 ) {\n      address subAddress = approvedSubmissions[i];\n      Submission sub = submissions[subAddress];\n\n      //need to deal with tie case\n      if(sub.votes > highestVote) {\n        highestVote = 0;\n        highestVote += sub.votes;\n        winningAddress = subAddress;\n      }\n    }\n    payout();\n  }\n\n  function payout() internal {\n    token.transfer(winningAddress, bounty);\n    bounty = 0;\n  }\n\n  /*\n  * Helper functions\n  */\n\n  function hasContestStarted() private constant returns (bool) {\n    // Check if global block.number is greater than or equal to start block and return result\n    return block.number >= startBlock;\n  }\n\n  function hasContestEnded() private constant returns (bool) {\n    // Return only greater than result because crowdsale goes until the endblock\n    return block.number > endBlock;\n  }\n\n  function checkContestStatus() {\n    if (!hasContestStarted()) revert();\n    if (hasContestEnded()) revert();\n  }\n\n  function getUnapprovedSubmissionAddresses() constant returns (address[] submissions) {\n    return unapprovedSubmissions;\n  }\n\n  function getApprovedSubmissionAddresses() constant returns (address[] submissions) {\n    return approvedSubmissions;\n  }\n}\n",
+  "sourcePath": "/Users/admin/Documents/Pocket/DevContest/contracts/DevContest.sol",
+  "ast": {
+    "attributes": {
+      "absolutePath": "/Users/admin/Documents/Pocket/DevContest/contracts/DevContest.sol",
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
       "exportedSymbols": {
         "DevContest": [
           970
@@ -165,8 +177,13 @@
       },
       {
         "attributes": {
+<<<<<<< HEAD
           "SourceUnit": 1069,
           "absolutePath": "/Users/mokn/Development/Ethereum/DevContest/contracts/SafeMath.sol",
+=======
+          "SourceUnit": 1389,
+          "absolutePath": "/Users/admin/Documents/Pocket/DevContest/contracts/SafeMath.sol",
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
           "file": "./SafeMath.sol",
           "scope": 971,
           "symbolAliases": [
@@ -921,7 +938,11 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "SafeMath",
+<<<<<<< HEAD
                   "referencedDeclaration": 1068,
+=======
+                  "referencedDeclaration": 1388,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                   "type": "library SafeMath"
                 },
                 "id": 60,
@@ -2329,7 +2350,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
+<<<<<<< HEAD
                                   "referencedDeclaration": 1080,
+=======
+                                  "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -2818,7 +2843,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1083,
+=======
+                              "referencedDeclaration": 1403,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -2947,7 +2976,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1083,
+=======
+                              "referencedDeclaration": 1403,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -3076,7 +3109,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1083,
+=======
+                              "referencedDeclaration": 1403,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -3205,7 +3242,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1083,
+=======
+                              "referencedDeclaration": 1403,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -3270,7 +3311,11 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
+<<<<<<< HEAD
                                           "referencedDeclaration": 1080,
+=======
+                                          "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                           "type": "msg",
                                           "value": "msg"
                                         },
@@ -3348,7 +3393,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1083,
+=======
+                              "referencedDeclaration": 1403,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -3620,7 +3669,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
+<<<<<<< HEAD
                                   "referencedDeclaration": 1080,
+=======
+                                  "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -4024,7 +4077,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
+<<<<<<< HEAD
                                       "referencedDeclaration": 1080,
+=======
+                                      "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -4204,7 +4261,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
+<<<<<<< HEAD
                                       "referencedDeclaration": 1080,
+=======
+                                      "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -4320,7 +4381,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
+<<<<<<< HEAD
                                   "referencedDeclaration": 1080,
+=======
+                                  "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -4397,7 +4462,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
+<<<<<<< HEAD
                                   "referencedDeclaration": 1080,
+=======
+                                  "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -4670,7 +4739,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
+<<<<<<< HEAD
                                   "referencedDeclaration": 1080,
+=======
+                                  "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -4721,7 +4794,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1083,
+=======
+                              "referencedDeclaration": 1403,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -4793,7 +4870,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
+<<<<<<< HEAD
                                       "referencedDeclaration": 1080,
+=======
+                                      "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -4849,7 +4930,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1083,
+=======
+                              "referencedDeclaration": 1403,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -4978,7 +5063,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1083,
+=======
+                              "referencedDeclaration": 1403,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -5107,7 +5196,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1083,
+=======
+                              "referencedDeclaration": 1403,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -5293,7 +5386,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
+<<<<<<< HEAD
                                   "referencedDeclaration": 1088,
+=======
+                                  "referencedDeclaration": 1408,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                   "type": "function () pure returns (bytes32)",
                                   "value": "sha3"
                                 },
@@ -5346,7 +5443,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
+<<<<<<< HEAD
                                   "referencedDeclaration": 1088,
+=======
+                                  "referencedDeclaration": 1408,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                   "type": "function () pure returns (bytes32)",
                                   "value": "sha3"
                                 },
@@ -5479,7 +5580,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
+<<<<<<< HEAD
                                       "referencedDeclaration": 1083,
+=======
+                                      "referencedDeclaration": 1403,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                       "type": "function (bool) pure",
                                       "value": "require"
                                     },
@@ -6180,7 +6285,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1083,
+=======
+                              "referencedDeclaration": 1403,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -6235,7 +6344,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
+<<<<<<< HEAD
                                       "referencedDeclaration": 1080,
+=======
+                                      "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -6374,7 +6487,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1083,
+=======
+                              "referencedDeclaration": 1403,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -6488,7 +6605,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1083,
+=======
+                              "referencedDeclaration": 1403,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -6599,7 +6720,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1083,
+=======
+                              "referencedDeclaration": 1403,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -7166,7 +7291,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
+<<<<<<< HEAD
                                   "referencedDeclaration": 1080,
+=======
+                                  "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -7185,7 +7314,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1095,
+=======
+                              "referencedDeclaration": 1415,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "contract DevContest",
                               "value": "this"
                             },
@@ -7231,7 +7364,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1083,
+=======
+                              "referencedDeclaration": 1403,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -7376,7 +7513,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
+<<<<<<< HEAD
                                   "referencedDeclaration": 1080,
+=======
+                                  "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -7395,7 +7536,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1095,
+=======
+                              "referencedDeclaration": 1415,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "contract DevContest",
                               "value": "this"
                             },
@@ -7482,7 +7627,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
+<<<<<<< HEAD
                                       "referencedDeclaration": 1080,
+=======
+                                      "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -7528,7 +7677,11 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "add",
+<<<<<<< HEAD
                                   "referencedDeclaration": 1067,
+=======
+                                  "referencedDeclaration": 1387,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                   "type": "function (uint256,uint256) view returns (uint256)"
                                 },
                                 "children": [
@@ -7574,7 +7727,11 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
+<<<<<<< HEAD
                                               "referencedDeclaration": 1080,
+=======
+                                              "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                               "type": "msg",
                                               "value": "msg"
                                             },
@@ -7684,7 +7841,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
+<<<<<<< HEAD
                                   "referencedDeclaration": 1080,
+=======
+                                  "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -7870,7 +8031,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1083,
+=======
+                              "referencedDeclaration": 1403,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -7935,7 +8100,11 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
+<<<<<<< HEAD
                                           "referencedDeclaration": 1080,
+=======
+                                          "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                           "type": "msg",
                                           "value": "msg"
                                         },
@@ -8013,7 +8182,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1083,
+=======
+                              "referencedDeclaration": 1403,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -8092,7 +8265,11 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
+<<<<<<< HEAD
                                           "referencedDeclaration": 1080,
+=======
+                                          "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                           "type": "msg",
                                           "value": "msg"
                                         },
@@ -8180,7 +8357,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
+<<<<<<< HEAD
                                       "referencedDeclaration": 1080,
+=======
+                                      "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -8226,7 +8407,11 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "sub",
+<<<<<<< HEAD
                                   "referencedDeclaration": 1043,
+=======
+                                  "referencedDeclaration": 1363,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                   "type": "function (uint256,uint256) view returns (uint256)"
                                 },
                                 "children": [
@@ -8272,7 +8457,11 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
+<<<<<<< HEAD
                                               "referencedDeclaration": 1080,
+=======
+                                              "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                               "type": "msg",
                                               "value": "msg"
                                             },
@@ -8399,7 +8588,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
+<<<<<<< HEAD
                                   "referencedDeclaration": 1080,
+=======
+                                  "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -8494,7 +8687,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
+<<<<<<< HEAD
                                   "referencedDeclaration": 1080,
+=======
+                                  "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -8680,7 +8877,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1083,
+=======
+                              "referencedDeclaration": 1403,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -8745,7 +8946,11 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
+<<<<<<< HEAD
                                           "referencedDeclaration": 1080,
+=======
+                                          "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                           "type": "msg",
                                           "value": "msg"
                                         },
@@ -8823,7 +9028,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1083,
+=======
+                              "referencedDeclaration": 1403,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -8888,7 +9097,11 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
+<<<<<<< HEAD
                                           "referencedDeclaration": 1080,
+=======
+                                          "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                           "type": "msg",
                                           "value": "msg"
                                         },
@@ -9076,7 +9289,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
+<<<<<<< HEAD
                                       "referencedDeclaration": 1080,
+=======
+                                      "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -9136,7 +9353,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
+<<<<<<< HEAD
                                       "referencedDeclaration": 1080,
+=======
+                                      "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -9236,7 +9457,11 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "add",
+<<<<<<< HEAD
                                   "referencedDeclaration": 1067,
+=======
+                                  "referencedDeclaration": 1387,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                   "type": "function (uint256,uint256) view returns (uint256)"
                                 },
                                 "children": [
@@ -9318,7 +9543,11 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
+<<<<<<< HEAD
                                           "referencedDeclaration": 1080,
+=======
+                                          "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                           "type": "msg",
                                           "value": "msg"
                                         },
@@ -9406,7 +9635,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
+<<<<<<< HEAD
                                       "referencedDeclaration": 1080,
+=======
+                                      "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -9506,7 +9739,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
+<<<<<<< HEAD
                                       "referencedDeclaration": 1080,
+=======
+                                      "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -9624,7 +9861,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
+<<<<<<< HEAD
                                   "referencedDeclaration": 1080,
+=======
+                                  "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -9679,7 +9920,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
+<<<<<<< HEAD
                                       "referencedDeclaration": 1080,
+=======
+                                      "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -9856,7 +10101,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1083,
+=======
+                              "referencedDeclaration": 1403,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -9921,7 +10170,11 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
+<<<<<<< HEAD
                                           "referencedDeclaration": 1080,
+=======
+                                          "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                           "type": "msg",
                                           "value": "msg"
                                         },
@@ -9999,7 +10252,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1083,
+=======
+                              "referencedDeclaration": 1403,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -10064,7 +10321,11 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
+<<<<<<< HEAD
                                           "referencedDeclaration": 1080,
+=======
+                                          "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                           "type": "msg",
                                           "value": "msg"
                                         },
@@ -10142,7 +10403,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1083,
+=======
+                              "referencedDeclaration": 1403,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -10207,7 +10472,11 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
+<<<<<<< HEAD
                                           "referencedDeclaration": 1080,
+=======
+                                          "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                           "type": "msg",
                                           "value": "msg"
                                         },
@@ -10409,7 +10678,11 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "sub",
+<<<<<<< HEAD
                                   "referencedDeclaration": 1043,
+=======
+                                  "referencedDeclaration": 1363,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                   "type": "function (uint256,uint256) view returns (uint256)"
                                 },
                                 "children": [
@@ -10491,7 +10764,11 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
+<<<<<<< HEAD
                                           "referencedDeclaration": 1080,
+=======
+                                          "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                           "type": "msg",
                                           "value": "msg"
                                         },
@@ -10579,7 +10856,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
+<<<<<<< HEAD
                                       "referencedDeclaration": 1080,
+=======
+                                      "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -10679,7 +10960,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
+<<<<<<< HEAD
                                       "referencedDeclaration": 1080,
+=======
+                                      "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -10779,7 +11064,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
+<<<<<<< HEAD
                                       "referencedDeclaration": 1080,
+=======
+                                      "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -10939,7 +11228,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
+<<<<<<< HEAD
                                   "referencedDeclaration": 1080,
+=======
+                                  "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -10994,7 +11287,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
+<<<<<<< HEAD
                                       "referencedDeclaration": 1080,
+=======
+                                      "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -11149,7 +11446,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1083,
+=======
+                              "referencedDeclaration": 1403,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -11204,7 +11505,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
+<<<<<<< HEAD
                                       "referencedDeclaration": 1080,
+=======
+                                      "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -11338,7 +11643,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
+<<<<<<< HEAD
                                   "referencedDeclaration": 1080,
+=======
+                                  "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -11357,7 +11666,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1095,
+=======
+                              "referencedDeclaration": 1415,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "contract DevContest",
                               "value": "this"
                             },
@@ -11403,7 +11716,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1083,
+=======
+                              "referencedDeclaration": 1403,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -11524,7 +11841,11 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "add",
+<<<<<<< HEAD
                                   "referencedDeclaration": 1067,
+=======
+                                  "referencedDeclaration": 1387,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                   "type": "function (uint256,uint256) view returns (uint256)"
                                 },
                                 "children": [
@@ -11655,7 +11976,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
+<<<<<<< HEAD
                                   "referencedDeclaration": 1080,
+=======
+                                  "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -11674,7 +11999,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1095,
+=======
+                              "referencedDeclaration": 1415,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "contract DevContest",
                               "value": "this"
                             },
@@ -11784,7 +12113,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1083,
+=======
+                              "referencedDeclaration": 1403,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -11869,7 +12202,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 1083,
+=======
+                              "referencedDeclaration": 1403,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -11924,7 +12261,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
+<<<<<<< HEAD
                                       "referencedDeclaration": 1080,
+=======
+                                      "referencedDeclaration": 1400,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -12966,7 +13307,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
+<<<<<<< HEAD
                                   "referencedDeclaration": 1072,
+=======
+                                  "referencedDeclaration": 1392,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                   "type": "block",
                                   "value": "block"
                                 },
@@ -13113,7 +13458,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
+<<<<<<< HEAD
                                   "referencedDeclaration": 1072,
+=======
+                                  "referencedDeclaration": 1392,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                   "type": "block",
                                   "value": "block"
                                 },
@@ -13289,7 +13638,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
+<<<<<<< HEAD
                                   "referencedDeclaration": 1084,
+=======
+                                  "referencedDeclaration": 1404,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                   "type": "function () pure",
                                   "value": "revert"
                                 },
@@ -13384,7 +13737,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
+<<<<<<< HEAD
                                   "referencedDeclaration": 1084,
+=======
+                                  "referencedDeclaration": 1404,
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
                                   "type": "function () pure",
                                   "value": "revert"
                                 },
@@ -13647,5 +14004,9 @@
   },
   "networks": {},
   "schemaVersion": "1.0.1",
+<<<<<<< HEAD
   "updatedAt": "2018-01-19T22:44:21.565Z"
+=======
+  "updatedAt": "2018-01-22T19:43:47.332Z"
+>>>>>>> 06f19490d7d0e0f70998ee945ac6368614e0f4b5
 }
